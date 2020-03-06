@@ -1,0 +1,54 @@
+<com.google.android.material.textfield.TextInputLayout
+   android:id="@+id/default_text_input_layout"
+   android:layout_width="0dp"
+   android:layout_height="wrap_content"
+   android:layout_margin="10dp"
+   android:hint="Default"
+   app:layout_constraintLeft_toLeftOf="parent"
+   app:layout_constraintRight_toRightOf="parent"
+   app:layout_constraintTop_toTopOf="parent">
+
+   <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/default_edit_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<com.google.android.material.textfield.TextInputLayout
+   android:id="@+id/filled_text_input_layout"
+   style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+   android:layout_width="0dp"
+   android:layout_height="wrap_content"
+   android:layout_margin="10dp"
+   android:hint="FilledBox"
+   app:layout_constraintLeft_toLeftOf="parent"
+   app:layout_constraintRight_toRightOf="parent"
+   app:layout_constraintTop_toBottomOf="@id/default_text_input_layout">
+
+   <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/filled_edit_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<com.google.android.material.textfield.TextInputLayout
+   android:id="@+id/outlined_text_input_layout"
+   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+   android:layout_width="0dp"
+   android:layout_height="wrap_content"
+   android:layout_margin="10dp"
+   android:hint="OutlinedBox"
+   app:layout_constraintLeft_toLeftOf="parent"
+   app:layout_constraintRight_toRightOf="parent"
+   app:layout_constraintTop_toBottomOf="@id/filled_text_input_layout">
+
+   <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/outlined_edit_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+</com.google.android.material.textfield.TextInputLayout>
